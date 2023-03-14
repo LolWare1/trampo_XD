@@ -34,7 +34,7 @@ se aparecer isso com o meu pendrive, quer dizer que a vers que eu coloquei no ru
 ```csharp
 Tabela de preços v2.0.2: 破壊「はかい」
 -------------------------------
-Formatação Básica Formatação, Instalação Sistema Operacional, Ms Office e Antivírus. R$ 50,00
+Formatação Básica Formatação, Instalação Sistema Operacional, Ms Office e Antivírus. R$ 50,00 + 25 por unidade.
 
 Formatação Completa Formatação, Instalação Sistema Operacional, Ms Office, Antivírus, Adobe Reader (PDF), navegador, etc. R$70,00
 
