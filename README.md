@@ -11,6 +11,29 @@
 se der algm erro: Como fazer a desinstação:
 iniciar > painel de controle > windows update > atualizações instaladas (no canto inferior esquerdo da tela) > procura ou pesquisa a update "KB971033" > botão direito e desinstalar. 
 Importante também a necessidade de tirar as atualizações automáticas do windows para que este arquivo não volte a ser baixado!
+    
+<h2 align="center">            ~ ATIVAR W10 ~</h2>
+apenas abra o windows porwershell e coloque o seguinte comando:
+<p>
+    
+```zsh
+> irm https://massgrave.dev/get | iex
+```
+logo dps aperte 1 e pronto.
+
+Se nao funcionar, baixe e abre o arquivo "licença digital.cmd" que deixei no github.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 <h2 align="center">            ~ TABELA DE PREÇOS ~</h2>
 
@@ -49,3 +72,4 @@ Troca de Bateria Troca de bateria CR2032 R$ 15,00
 
 Configuração de Roteadores Configuração básica de Roteador (Wi-fi, Repetidor, senha) R$ 50,00
 ```
+    
