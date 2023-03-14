@@ -22,18 +22,12 @@ apenas abra o windows porwershell e coloque o seguinte comando:
 logo dps aperte 1 e pronto.
 
 Se nao funcionar, baixe e abre o arquivo "licença digital.cmd" que deixei no github.
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+<h2 align="center">            ~ ERROS DE FORMATAÇAO ~</h2>
+não pode ser instalado no disco estilo partição GPT: na tela inicial, vc vai apertar "shift + F10", vai abrir um cmd, escreva "diskpart", "list disk", "select", "select disk number 0"(ou o ssd), "clean", "convert gpt", "exit", deve funcionar. <p>
+
+Eror: Bios/legacy boot of UEFI-only media
+se aparecer isso com o meu pendrive, quer dizer que a vers que eu coloquei no rufus (bgl de instalar o win no pendrive) nao eh compativel com o computador, se isso acontecer vc tera que formatar o pendrive dnv so que no rufus voce vai selecionar o esquema de partiçao "MBR", deve funcionar.
 
 <h2 align="center">            ~ TABELA DE PREÇOS ~</h2>
 
