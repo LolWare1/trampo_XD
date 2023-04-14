@@ -29,6 +29,28 @@ não pode ser instalado no disco estilo partição GPT: na tela inicial, vc vai 
 Eror: Bios/legacy boot of UEFI-only media
 se aparecer isso com o meu pendrive, quer dizer que a vers que eu coloquei no rufus (bgl de instalar o win no pendrive) nao eh compativel com o computador, se isso acontecer vc tera que formatar o pendrive dnv so que no rufus voce vai selecionar o esquema de partiçao "MBR", deve funcionar.
 
+<h2 align="center">            ~ TIRAR SENHA W10/W11 ~</h2>
+
+1. Com o pc ligado na area de colocar a senha, segure o shift e aperte em reiniciar no canto inferior direito.
+2. Se voce fez tudo certo vai aparecer a tela de configuraçoes avançadas, voce vai apertar na opçao de abrir o CMD (prompt de comando), com o CMD aberto vai digitar os seguintes comandos:
+3. diskpart
+4. list vol (aqui agente descobre qual disco precisamos,voce precisa saber qual disco esta instalado o windows)
+5. exit
+6. "disco com o windows":
+exemplo: A: ou E:
+7. cd Windows
+8. cd system32
+9. copy utilman.exe utilman1.exe
+10. copy cmd.exe cmd1.exe
+11. del utilman.exe
+12. rename cmd.exe utilman.exe
+13. exit
+14. Aperte em continuar, assim o pc vai reiniciar com os arquivos que movemos com o CMD.
+15. Depois do pc reiniciar voce vai aperta no "hominho" q fica perto do botao de desligar/reiniciar no canto inferior direito
+16. "TUM", um CMD vai aparecer e voce vai ter que digitar mais um comando:
+17. control userpasswords2
+18. e ta ai, so clicar em redefinir senha e dps disso eh so historia :)
+
 <h2 align="center">            ~ TABELA DE PREÇOS ~</h2>
 
 ```csharp
